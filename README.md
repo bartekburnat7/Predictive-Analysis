@@ -54,11 +54,25 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 
 ## Business Requirements
-* Describe your business requirements
+
+The Loan Approval Prediction System offers a transformative solution to streamline the lending process for banks and financial institutions. By leveraging machine learning algorithms, this system automates loan approval decisions, reducing turnaround time, enhancing efficiency, and improving decision-making accuracy. With a dataset comprising applicant attributes such as income, education, credit history, and property area, the system predicts loan approval status, empowering lenders to make objective assessments based on historical data and predefined criteria. Through features like data preprocessing, feature engineering, and model selection, the system optimizes predictive performance, ensuring reliable outcomes. Implementation entails deploying the trained model into production, adhering to regulatory compliance, safeguarding data privacy, and managing risks associated with model bias. Continuous performance monitoring and feedback integration further refine the system, maintaining its effectiveness and reliability over time. Ultimately, the Loan Approval Prediction System offers a data-driven approach to enhance profitability, mitigate risks, and deliver superior customer experiences in the lending domain.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* List here your project hypothesis(es) and how you envision validating it (them)
+
+Project Hypotheses and Validation:
+
+Hypothesis: Applicant attributes significantly influence loan approval decisions.
+Validation: Analyze feature importance using machine learning algorithms to correlate attributes with loan approval outcomes.
+Hypothesis: Machine learning models accurately predict loan approval status.
+Validation: Train models using historical data and evaluate performance against benchmarks using metrics like accuracy and precision.
+Hypothesis: Automated loan approval improves efficiency and reduces turnaround time.
+Validation: Implement the system and compare processing times before and after automation through A/B testing or pilot studies.
+Hypothesis: The system enhances risk management by identifying potential defaulters.
+Validation: Measure model performance in identifying defaulters and assess its impact on portfolio quality.
+Hypothesis: Continuous monitoring and feedback integration improve model performance.
+Validation: Iterate on model updates using stakeholder feedback, demonstrating improvements in accuracy and reliability over time.
 
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
