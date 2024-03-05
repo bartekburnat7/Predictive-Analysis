@@ -63,16 +63,21 @@ The Loan Approval Prediction System offers a transformative solution to streamli
 
 Project Hypotheses and Validation:
 
-Hypothesis: Applicant attributes significantly influence loan approval decisions.
-Validation: Analyze feature importance using machine learning algorithms to correlate attributes with loan approval outcomes.
-Hypothesis: Machine learning models accurately predict loan approval status.
-Validation: Train models using historical data and evaluate performance against benchmarks using metrics like accuracy and precision.
-Hypothesis: Automated loan approval improves efficiency and reduces turnaround time.
-Validation: Implement the system and compare processing times before and after automation through A/B testing or pilot studies.
-Hypothesis: The system enhances risk management by identifying potential defaulters.
-Validation: Measure model performance in identifying defaulters and assess its impact on portfolio quality.
-Hypothesis: Continuous monitoring and feedback integration improve model performance.
-Validation: Iterate on model updates using stakeholder feedback, demonstrating improvements in accuracy and reliability over time.
+-   __Hypothesis:__ Applicant attributes significantly influence loan approval decisions.
+
+    __Validation:__ Analyze feature importance using machine learning algorithms to correlate attributes with loan approval outcomes.
+-   __Hypothesis:__ Machine learning models accurately predict loan approval status.
+
+    __Validation:__ Train models using historical data and evaluate performance against benchmarks using metrics like accuracy and precision.
+-   __Hypothesis:__ Automated loan approval improves efficiency and reduces turnaround time.
+
+    __Validation:__ Implement the system and compare processing times before and after automation through A/B testing or pilot studies.
+-   __Hypothesis:__ The system enhances risk management by identifying potential defaulters.
+
+    __Validation:__ Measure model performance in identifying defaulters and assess its impact on portfolio quality.
+-   __Hypothesis:__ Continuous monitoring and feedback integration improve model performance.
+
+    __Validation:__ Iterate on model updates using stakeholder feedback, demonstrating improvements in accuracy and reliability over time.
 
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
