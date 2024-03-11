@@ -55,7 +55,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ## Business Requirements
 
-The Loan Approval Prediction System offers a transformative solution to streamline the lending process for banks and financial institutions. By leveraging machine learning algorithms, this system automates loan approval decisions, reducing turnaround time, enhancing efficiency, and improving decision-making accuracy. With a dataset comprising applicant attributes such as income, education, credit history, and property area, the system predicts loan approval status, empowering lenders to make objective assessments based on historical data and predefined criteria. Through features like data preprocessing, feature engineering, and model selection, the system optimizes predictive performance, ensuring reliable outcomes. Implementation entails deploying the trained model into production, adhering to regulatory compliance, safeguarding data privacy, and managing risks associated with model bias. Continuous performance monitoring and feedback integration further refine the system, maintaining its effectiveness and reliability over time. Ultimately, the Loan Approval Prediction System offers a data-driven approach to enhance profitability, mitigate risks, and deliver superior customer experiences in the lending domain.
+The Loan Approval Prediction System offers a solution to streamline the lending process for banks and financial institutions. By leveraging machine learning algorithms, this system automates loan approval decisions, reducing turnaround time, enhancing efficiency, and improving decision-making accuracy. With a dataset comprising applicant attributes such as income, education, credit history, and property area, the system predicts loan approval status, allowing lenders to make objective assessments based on historical data and predefined criteria. Through features like data preprocessing, feature engineering, and model selection, the system optimizes predictive performance, ensuring reliable outcomes. Implementation entails deploying the trained model into production, adhering to regulatory compliance, safeguarding data privacy, and managing risks associated with model bias. Continuous performance monitoring and feedback integration further refine the system, maintaining its effectiveness and reliability over time. Ultimately, the Loan Approval Prediction System offers a data-driven approach to enhance profitability, mitigate risks, and deliver superior customer experiences in the lending domain.
 
 
 ## Hypothesis and how to validate?
@@ -66,23 +66,31 @@ Project Hypotheses and Validation:
 -   __Hypothesis:__ Applicant attributes significantly influence loan approval decisions.
 
     __Validation:__ Analyze feature importance using machine learning algorithms to correlate attributes with loan approval outcomes.
+
 -   __Hypothesis:__ Machine learning models accurately predict loan approval status.
 
     __Validation:__ Train models using historical data and evaluate performance against benchmarks using metrics like accuracy and precision.
+
 -   __Hypothesis:__ Automated loan approval improves efficiency and reduces turnaround time.
 
     __Validation:__ Implement the system and compare processing times before and after automation through A/B testing or pilot studies.
+
 -   __Hypothesis:__ The system enhances risk management by identifying potential defaulters.
 
     __Validation:__ Measure model performance in identifying defaulters and assess its impact on portfolio quality.
+
 -   __Hypothesis:__ Continuous monitoring and feedback integration improve model performance.
 
     __Validation:__ Iterate on model updates using stakeholder feedback, demonstrating improvements in accuracy and reliability over time.
 
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualizations and ML tasks
-
+-   Data Visualation and Presentation
+    - The dashboard will display the 'distribution graphs' and 'correlation graphs' for customers that were and were not accepted for a loan.
+-   Classification Problem
+    - Build and fit a ML Pipeline to predict if a given customer will be accepted for a loan or not. I will be using a DecisionTreeClassifier model.
+    - This model will display if the candidate is fit for a loan or if th ebank should avoid doing business with the individual.
+    - I am aiming for atleast 80% accuracy rating.
 
 ## ML Business Case
 * In the previous bullet, you potentially visualized an ML task to answer a business requirement. You should frame the business case using the method we covered in the course 
