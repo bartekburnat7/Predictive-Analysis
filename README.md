@@ -1,56 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-## Codeanywhere Template Instructions
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the IDE Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the IDE Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use. 
-
-## How to use this repo
-
-1. Use this template to create your GitHub project repo
-
-1. Log into <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">CodeAnywhere</a> with your GitHub account.
-
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
-
-1. In the terminal type <code>pip3 install jupyter</code>
-
-1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
-
-1. Open port 8888 preview or browser
-
-1. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
-
-1. Click the button Not Trusted and choose Trust.
-
-Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
-
-## IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In the IDE terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size and to have a shorter model training time. If you are doing an image recognition project, we suggest you consider using an image shape that is 100px × 100px or 50px × 50px, to ensure the model meets the performance requirement but is smaller than 100Mb for a smoother push to GitHub. A reasonably sized image set is ~5000 images, but you can choose ~10000 lines for numeric or textual data. 
+
+The dataset is sourced from Kaggle and contains 381 customers that have applied for a loan with the bank.
+
 
 
 ## Business Requirements
@@ -89,16 +40,34 @@ Project Hypotheses and Validation:
     - The dashboard will display the 'distribution graphs' and 'correlation graphs' for customers that were and were not accepted for a loan.
 -   Classification Problem
     - Build and fit a ML Pipeline to predict if a given customer will be accepted for a loan or not. I will be using a DecisionTreeClassifier model.
-    - This model will display if the candidate is fit for a loan or if th ebank should avoid doing business with the individual.
-    - I am aiming for atleast 80% accuracy rating.
+    - This model will display if the candidate is fit for a loan or if the bank should avoid doing business with the individual.
+    - I am aiming for at least 80% accuracy rating.
 
 ## ML Business Case
-* In the previous bullet, you potentially visualized an ML task to answer a business requirement. You should frame the business case using the method we covered in the course 
+1. What are the business requirements?
+    - Develop and deploy machine learning algorithms to automate loan approval decisions based on applicant attributes and historical data.
+    - Implement continuous performance monitoring and feedback integration to ensure the system's effectiveness, reliability, and regulatory compliance over time.
+2. Is there any business requirement that can be answered with conventional data analysis?
+    - Utilize conventional data analysis techniques to identify key factors from historical data and optimize predictive performance for loan approval decisions.
+3. Does the client need a dashboard or an API endpoint?
+    - Given the need for lenders to interact with the system, monitor performance metrics, and access insights, the client would benefit from a user-friendly dashboard providing visual representations of loan approval predictions, performance metrics, and relevant insights derived from data analysis.
+4. What does the client consider as a successful project outcome?
+    - The client considers a successful project outcome to be a streamlined lending process with automated, accurate loan approval decisions, improved efficiency, minimized risks, enhanced profitability and a 80% accuracy rating.
+5. Ethical or Privacy concerns?
+    - Ethical and privacy concerns involve regulatory compliance, data privacy, mitigating model bias risks, and ensuring fairness and transparency in loan approval decisions.
+6. Does the data suggest a particular model?
+    - The type of models suggested for loan approval prediction includes machine learning algorithms such as logistic regression, decision trees, random forests.
+7. What are the model's inputs and intended outputs?
+    - The model's inputs typically include applicant attributes such as income, education, credit history, and property area. The intended output is the prediction of loan approval status, indicating whether a loan application should be approved or denied based on the provided inputs and historical data.
+8. What are the criteria for the performance goal of the predictions?
+ - An accuracy of at least 80%.
+9. How will the client benefit?
+    - The bank will benefit from increased operational efficiency, reduced risks, improved profitability, and enhanced customer satisfaction resulting from the implementation of the Loan Approval Prediction System.
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
+
+1. The initial page outlines the project dataset and articulates the business requirements.
 
 
 
