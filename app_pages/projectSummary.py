@@ -3,7 +3,7 @@ import time
 
 def page_summary_body():
 
-    st.write("### Project Summary")
+    st.title("Project Summary")
 
     st.info(
         f"**Introducing the Loan Approval Prediction System**\n"
