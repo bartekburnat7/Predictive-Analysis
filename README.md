@@ -2,6 +2,21 @@
 
 The dataset is sourced from Kaggle and contains 381 customers that have applied for a loan with the bank.
 
+| Column             | Description                                                                                                  | Example                |
+|--------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
+| Loan_ID            | Unique identifier assigned to each loan application                                                           | LP001003               |
+| Gender             | Gender of the applicant                                                                                     | Male, Female           |
+| Married            | Marital status of the applicant                                                                              | Yes, No                |
+| Dependents         | Number of dependents of the applicant                                                                        | 0, 1, 2, 3+           |
+| Education          | Highest education level attained by the applicant                                                             | Graduate, Not Graduate |
+| Self_Employed      | Indicates whether the applicant is self-employed or not                                                      | Yes, No                |
+| ApplicantIncome    | Total income of the applicant (in currency)                                                                   | 4583, 3000             |
+| CoapplicantIncome  | Total income of the co-applicant (in currency, if any)                                                        | 1508.0, 0.0            |
+| LoanAmount         | Amount of the loan applied for (in currency)                                                                  | 128.0, 66.0            |
+| Loan_Amount_Term   | Duration of the loan (in months)                                                                             | 360, 120               |
+| Credit_History     | Credit history of the applicant (1.0 represents good credit history, 0.0 represents bad credit history)     | 1.0, 0.0               |
+| Property_Area      | Area where the property associated with the loan is located                                                   | Rural, Urban, Semiurban|
+| Loan_Status        | Status of the loan application (Y for Approved, N for Not Approved)                                           | Y, N                   |
 
 
 ## Business Requirements
@@ -60,7 +75,7 @@ Project Hypotheses and Validation:
 7. What are the model's inputs and intended outputs?
     - The model's inputs typically include applicant attributes such as income, education, credit history, and property area. The intended output is the prediction of loan approval status, indicating whether a loan application should be approved or denied based on the provided inputs and historical data.
 8. What are the criteria for the performance goal of the predictions?
- - An accuracy of at least 80%.
+    - An accuracy of at least 80%.
 9. How will the client benefit?
     - The bank will benefit from increased operational efficiency, reduced risks, improved profitability, and enhanced customer satisfaction resulting from the implementation of the Loan Approval Prediction System.
 
@@ -95,8 +110,7 @@ Project Hypotheses and Validation:
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+The genesis of my project's concept finds its roots in the insightful loan approval model presented in the Churnometer walkthrough project by the esteemed Code Institute. Furthermore, the invaluable Classification lessons offered by the Institute have significantly influenced the trajectory of my work. Leveraging the framework and code structure from these resources, I methodically customized and fine-tuned them to cater specifically to the intricacies of loan approval, ensuring alignment with the objectives and intricacies of my project.
 
 ### Content 
 
