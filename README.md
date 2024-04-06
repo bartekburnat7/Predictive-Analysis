@@ -82,30 +82,51 @@ Project Hypotheses and Validation:
 
 ## Dashboard Design
 
-1. The initial page outlines the project dataset and articulates the business requirements.
+__Project Summary:__
+-   This section provides an overview of the project, introducing the Loan Approval Prediction System and its significance. It highlights the system's objectives, such as assisting financial institutions and individuals in forecasting loan approval outcomes accurately and efficiently. Additionally, it emphasizes the importance of informed financial decisions and empowerment for both lenders and borrowers.
+
+__Project Dataset:__
+-   The purpose of this section is to provide information about the dataset used in the project. It specifies the size of the dataset and its division into train, test, and validation sets, allowing users to understand the data's structure and organization. Furthermore, it mentions the source of the dataset, providing transparency about the data used for analysis.
+
+__Loan Acceptance Prediction Model Requirements:__
+-   This section outlines the key business requirements for the loan acceptance prediction model. It identifies three critical objectives: achieving a minimum accuracy level, implementing measures to mitigate biases and ensure fairness across demographic groups, and providing transparent and interpretable results. By stating these requirements, the section sets clear expectations for the model's performance and ethical considerations.
+
+__Data Visualization:__
+-   The purpose of this section is to visually represent insights from the loan data. While the current content appears to be a placeholder, typically this section would include various charts, graphs, or visualizations that illustrate patterns, correlations, or trends within the dataset. Visualizations can enhance understanding and facilitate data-driven decision-making by making complex information more accessible and interpretable.
+
+__Conclusions and Next Steps:__
+-   This section summarizes the findings and conclusions drawn from the analysis conducted in the project. It provides insights into factors influencing loan acceptance based on correlations and interpretations from the data. Additionally, it outlines the next steps or actions to be taken, such as further analysis, model refinement, or implementation of recommendations. This section helps to wrap up the project and guide future activities based on the current findings.
 
 
 
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+* I ended up creating a one page dashboard as I kept running into problems with the code and creating a one page dashboard resolved these issues.
 
 ## Deployment
 ### Heroku
 
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+#### The project was deployed to Heroku using the following steps.
 
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
+
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+
+- **NumPy**: A fundamental Python library for numerical computing, offering powerful array manipulation capabilities.
+- **Pandas**: A versatile Python library for data manipulation and analysis, providing advanced data structures and tools for working with structured data.
+- **Matplotlib**: A comprehensive Python library for creating static, interactive, and publication-quality visualizations from data.
+- **Seaborn**: A statistical data visualization library in Python based on Matplotlib, offering a high-level interface for drawing attractive and informative statistical graphics.
+- **Plotly**: A Python graphing library enabling the creation of interactive, publication-quality graphs online.
+- **Streamlit**: An open-source Python library simplifying the creation and sharing of custom web apps for machine learning and data science.
+- **Scikit-learn**: A simple and efficient Python library for machine learning, featuring tools for classification, regression, clustering, and dimensionality reduction.
+- **Imbalanced-learn**: A Python library addressing class imbalance in machine learning datasets through various techniques for resampling and handling imbalanced data.
 
 
 ## Credits 
@@ -114,17 +135,9 @@ The genesis of my project's concept finds its roots in the insightful loan appro
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- I based my project off the code institute Churnometer project.
+- Loand data was taken from kaggle - https://www.kaggle.com/datasets/bhavikjikadara/loan-status-prediction
 
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
-
-## Acknowledgements (optional)
-* Thank the people that provided support through this project.
+## Acknowledgements
+I extend heartfelt thanks to my machine learning mentor for their invaluable guidance and support, which has shaped my journey profoundly. Likewise, I'm deeply grateful to the Code Institute for their comprehensive curriculum and resources, crucial in honing my coding and machine learning skills. Your contributions have been integral to my success. Thank you both immensely.
 
